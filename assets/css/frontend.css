@@ -1,0 +1,116 @@
+.miuwpf-wrap {
+	position: relative;
+	border-radius: 2px;
+	transition: background-color 0.15s ease;
+}
+
+.miuwpf-wrap.is-dragover {
+	outline: 2px dashed #1a1a1a;
+	outline-offset: 6px;
+	background: rgba(0, 0, 0, 0.03);
+}
+
+.miuwpf-btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+	min-width: 240px;
+	max-width: 100%;
+	padding: 12px 18px;
+	border: 1.5px solid #1a1a1a;
+	border-radius: 8px;
+	background: #fff;
+	font-weight: 600;
+	font-size: 14px;
+	color: #1a1a1a;
+	cursor: pointer;
+	line-height: 1;
+	font-family: inherit;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+	transition: background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease;
+}
+
+.miuwpf-wrap.is-dragover .miuwpf-btn {
+	border-style: dashed;
+}
+
+.miuwpf-btn:hover {
+	background: #f6f6f7;
+	border-color: #000;
+}
+
+.miuwpf-btn:active {
+	transform: translateY(1px);
+}
+
+.miuwpf-btn:focus-visible {
+	outline: none;
+	box-shadow: 0 0 0 3px rgba(26, 26, 26, 0.18);
+}
+
+.miuwpf-btn-icon {
+	display: inline-flex;
+	flex: 0 0 auto;
+	color: #57606a;
+}
+
+.miuwpf-btn-label {
+	flex: 1 1 auto;
+	min-width: 0;
+	text-align: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.miuwpf-hint {
+	margin: 6px 0 0;
+	font-size: 12px;
+	color: #8c8f94;
+}
+
+.miuwpf-error {
+	color: #d63638;
+	font-size: 13px;
+	margin-top: 6px;
+}
+
+.miuwpf-list {
+	margin-top: 8px;
+}
+
+.miuwpf-item {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 4px 0;
+	font-size: 13px;
+	color: #3c434a;
+}
+
+.miuwpf-item.is-loading .miuwpf-name {
+	opacity: 0.5;
+}
+
+.miuwpf-status {
+	font-size: 12px;
+	color: #8c8f94;
+}
+
+.miuwpf-remove {
+	width: 18px;
+	height: 18px;
+	line-height: 16px;
+	border: none;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0.45);
+	color: #fff;
+	font-size: 12px;
+	cursor: pointer;
+	padding: 0;
+	flex: 0 0 auto;
+}
+
+.miuwpf-remove:hover {
+	background: #d63638;
+}

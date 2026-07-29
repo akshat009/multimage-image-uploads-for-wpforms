@@ -1,0 +1,14 @@
+.distignore
+.git
+.gitattributes
+.gitignore
+.github
+.phpunit.result.cache
+composer.json
+composer.lock
+phpunit.xml.dist
+tests
+vendor
+node_modules
+*.log
+.DS_Store
