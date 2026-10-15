@@ -2,13 +2,13 @@
 
 ![Banner](.github/readme/banner.png)
 
-**Add a Multi Image Upload field to WPForms — including WPForms Lite — with instant AJAX uploads, per-field limits, and email attachments.**
+**Add multiple image and photo uploads to WPForms Lite with instant AJAX uploads, custom limits, and email attachments. No Pro required.**
 
 [![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/multimage-image-uploads-for-wpforms)](https://wordpress.org/plugins/multimage-image-uploads-for-wpforms/)
 [![WordPress Tested](https://img.shields.io/wordpress/plugin/tested/multimage-image-uploads-for-wpforms)](https://wordpress.org/plugins/multimage-image-uploads-for-wpforms/)
 [![License: GPL v2+](https://img.shields.io/badge/license-GPL--2.0--or--later-blue)](https://www.gnu.org/licenses/gpl-2.0.html)
 
-WPForms Lite doesn't ship a file upload field. Multimage adds one — a **Multi Image Upload** field that lets visitors attach multiple images to any WPForms form, with instant AJAX pre-upload so nothing is lost to form serialization.
+WPForms Lite does not include an image or photo upload field. Multimage solves this completely free — adding a dedicated **Multi Image Upload** field that lets visitors attach multiple photos, screenshots, and images to any WPForms form with instant AJAX pre-upload and email attachments without purchasing WPForms Pro.
 
 [![Watch Multimage Walkthrough](https://img.youtube.com/vi/XG80kG8uRe0/maxresdefault.jpg)](https://www.youtube.com/watch?v=XG80kG8uRe0)
 
@@ -18,15 +18,16 @@ WPForms Lite doesn't ship a file upload field. Multimage adds one — a **Multi 
 
 ## Features
 
-- New "Multi Image Upload" field in the WPForms builder — drag into any form
-- Works with **WPForms Lite** (no Pro required)
-- Works with WPForms AJAX submission on or off — images pre-upload instantly on selection, so nothing is lost to form serialization
-- Per-field settings: Max File Uploads, Allowed File Extensions, Max File Size (MB)
-- Selected images listed with individual remove buttons before submit
-- Image URLs included in the `{all_fields}` email template
-- Uploaded images attached to notification emails
-- Server-side validation: content-based MIME detection, extension whitelist, size limits
-- Automatic cleanup of abandoned temporary uploads after 24 hours
+- **Multi Image Upload Field** — easily drag and drop into any WPForms form from the Standard Fields panel
+- **Built for WPForms Lite** — accept multiple image uploads on your forms without paying for a WPForms Pro license
+- **Works with AJAX on or off** — images pre-upload instantly via AJAX on selection, ensuring zero data loss during form submission
+- **Individual Remove Buttons** — visitors can preview selected photos and remove unwanted images before submitting
+- **Custom Field Settings** — configure Button Text, Max File Uploads, Allowed File Extensions, and Max File Size (MB) directly in the builder
+- **Email Attachments** — uploaded images are attached directly to WPForms notification emails
+- **Email Template Integration** — image links are automatically included in the `{all_fields}` email tag
+- **Strict Security & Validation** — server-side content-based MIME validation (images only), file extension whitelist, and size limit checks
+- **Automatic Cleanup** — temporary uploads from abandoned form submissions are automatically deleted after 24 hours
+- **Clean Media Library** — uploaded images are saved in your WordPress uploads folder without cluttering your WordPress Media Library
 
 ## Screenshots
 
