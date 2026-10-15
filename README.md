@@ -1,4 +1,4 @@
-# Multimage – Image Uploads for WPForms
+# Multimage – Multiple Image & Photo Upload for WPForms
 
 ![Banner](.github/readme/banner.png)
 

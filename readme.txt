@@ -1,6 +1,6 @@
-=== Multimage – Image Uploads for WPForms ===
+=== Multimage – Multiple Image & Photo Upload for WPForms ===
 Contributors: developerakshat
-Tags: wpforms, file upload, image upload, multiple files, photo upload
+Tags: wpforms, image upload, photo upload, attachments, addon
 Requires at least: 5.8
 Tested up to: 7.0
 Requires PHP: 7.4
@@ -8,7 +8,7 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Add multiple image uploads to WPForms — including WPForms Lite — with instant AJAX uploads, per-field limits, and email attachments.
+Add multiple image and photo uploads to WPForms Lite with instant AJAX uploads, custom limits, and email attachments. No Pro required.
 
 == Description ==
 
@@ -18,16 +18,18 @@ Watch the complete walkthrough and demo of Multimage:
 
 https://www.youtube.com/watch?v=XG80kG8uRe0
 
-Multimage adds a new **Multi Image Upload** field to the WPForms form builder — including WPForms Lite — letting visitors attach multiple photos or images to a single form submission.
+Multimage adds a dedicated **Multi Image Upload** field to the WPForms form builder — built specifically for **WPForms Lite** — letting visitors attach multiple photos and images to a single form submission without needing WPForms Pro.
+
+By default, WPForms Lite does not include an image upload field. Multimage solves this completely free, providing instant photo previews, secure AJAX uploads, and automatic email attachments.
 
 > This is an independent, third-party add-on. It is not affiliated with, endorsed by, or sponsored by WPForms or Awesome Motive, Inc. "WPForms" is a trademark of its respective owner and is used here only to describe compatibility.
 
 **Features**
 
 * New "Multi Image Upload" field in the builder — drag into any form
-* Works with **WPForms Lite** (no Pro required)
+* Built specifically for **WPForms Lite** (no Pro required)
 * Works with WPForms AJAX submission **on or off** — images pre-upload instantly on selection, so nothing is lost to form serialization
-* Per-field settings: Max File Uploads, Allowed File Extensions, Max File Size (MB)
+* Per-field settings: Max Image Uploads, Allowed Image Extensions, Max File Size (MB)
 * Selected images listed with individual remove buttons before submit
 * Image URLs included in the `{all_fields}` email template
 * Uploaded images attached to notification emails
@@ -41,7 +43,7 @@ When a visitor selects images, each file is uploaded immediately to a temporary 
 
 **Requirements**
 
-* WPForms Lite or WPForms Pro
+* WPForms Lite (or WPForms Pro)
 
 = Check Out My Other Plugins =
 
@@ -56,14 +58,14 @@ If you find Multimage helpful, feel free to check out my other free WordPress pl
 1. Upload the `multimage-image-uploads-for-wpforms` folder to the `/wp-content/plugins/` directory, or install the plugin through the WordPress "Add New Plugin" screen.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 3. Edit or create a WPForms form and drag the **Multi Image Upload** field into the form from the Fields panel.
-4. Configure the field's Max File Uploads, Allowed File Extensions, and Max File Size options in the field settings panel.
+4. Configure the field's Max Image Uploads, Allowed Image Extensions, and Max File Size options in the field settings panel.
 5. Save and publish the form.
 
 == Frequently Asked Questions ==
 
 = Does this work with WPForms Lite? =
 
-Yes. That is the primary use case — Lite has no file upload field, and this plugin adds a multi-image one.
+Yes. That is the primary use case — WPForms Lite has no image upload field by default, and this plugin adds multiple image and photo uploads completely free without needing Pro.
 
 = Where are the uploaded images stored? =
 
@@ -79,7 +81,7 @@ Yes. Images are pre-uploaded on selection, so the setting does not matter.
 
 = How many images can a visitor upload? =
 
-Whatever you set for Max File Uploads on that field, per form. Use separate Multi Image Upload fields with different limits if you need a photo field and a gallery field on the same form.
+Whatever you set for Max Image Uploads on that field, per form. Use separate Multi Image Upload fields with different limits if you need a photo field and a gallery field on the same form.
 
 = Do the uploaded images appear in the WordPress Media Library? =
 
