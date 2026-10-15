@@ -53,10 +53,9 @@ Production releases are mirrored to the [WordPress.org SVN repository](https://p
 
 Check out my other free plugins on the WordPress Plugin Directory:
 
-* **[Story Video Block](https://wordpress.org/plugins/story-video-block/)** — Fast video player, YouTube/Vimeo embed & video testimonials block for Gutenberg with click-to-play lazy loading.
-* **[Quovex Blocks](https://wordpress.org/plugins/quovex-blocks/)** — Modern Gutenberg blocks: Filterable Query Grid, Post Carousel, Content Showcase & Notification Banner.
 * **[Flash Sale Stock Guard for WooCommerce](https://wordpress.org/plugins/flash-sale-stock-guard-for-woocommerce/)** — Stop overselling during limited drops and flash sales by reserving stock at add-to-cart.
-* **[Very Simple Contact Us Form](https://wordpress.org/plugins/very-simple-contact-us-form/)** — Ultra-lightweight, minimal contact form with zero bloat.
+* **[Quovex Blocks](https://wordpress.org/plugins/quovex-blocks/)** — Modern Gutenberg blocks: Filterable Query Grid, Post Carousel, Content Showcase & Notification Banner.
+* **[Story Video Block](https://wordpress.org/plugins/story-video-block/)** — Fast video player, YouTube/Vimeo embed & video testimonials block for Gutenberg with click-to-play lazy loading.
 
 ## License
 
