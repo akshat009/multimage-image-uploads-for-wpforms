@@ -29,7 +29,7 @@ By default, WPForms Lite does not include an image upload field. Multimage solve
 * New "Multi Image Upload" field in the builder — drag into any form
 * Built specifically for **WPForms Lite** (no Pro required)
 * Works with WPForms AJAX submission **on or off** — images pre-upload instantly on selection, so nothing is lost to form serialization
-* Per-field settings: Max Image Uploads, Allowed Image Extensions, Max File Size (MB)
+* Per-field settings: Max File Uploads, Allowed File Extensions, Max File Size (MB)
 * Selected images listed with individual remove buttons before submit
 * Image URLs included in the `{all_fields}` email template
 * Uploaded images attached to notification emails
@@ -58,7 +58,7 @@ If you find Multimage helpful, feel free to check out my other free WordPress pl
 1. Upload the `multimage-image-uploads-for-wpforms` folder to the `/wp-content/plugins/` directory, or install the plugin through the WordPress "Add New Plugin" screen.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 3. Edit or create a WPForms form and drag the **Multi Image Upload** field into the form from the Fields panel.
-4. Configure the field's Max Image Uploads, Allowed Image Extensions, and Max File Size options in the field settings panel.
+4. Configure the field's Max File Uploads, Allowed File Extensions, and Max File Size options in the field settings panel.
 5. Save and publish the form.
 
 == Frequently Asked Questions ==
@@ -81,7 +81,7 @@ Yes. Images are pre-uploaded on selection, so the setting does not matter.
 
 = How many images can a visitor upload? =
 
-Whatever you set for Max Image Uploads on that field, per form. Use separate Multi Image Upload fields with different limits if you need a photo field and a gallery field on the same form.
+Whatever you set for Max File Uploads on that field, per form. Use separate Multi Image Upload fields with different limits if you need a photo field and a gallery field on the same form.
 
 = Do the uploaded images appear in the WordPress Media Library? =
 
