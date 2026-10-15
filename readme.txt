@@ -18,28 +18,28 @@ Watch the complete walkthrough and demo of Multimage:
 
 https://www.youtube.com/watch?v=XG80kG8uRe0
 
-Multimage adds a dedicated **Multi Image Upload** field to the WPForms form builder — built specifically for **WPForms Lite** — letting visitors attach multiple photos and images to a single form submission without needing WPForms Pro.
+Multimage is a lightweight multiple image upload addon for WPForms. It adds a dedicated **Multi Image Upload** field to the WPForms form builder — built specifically for **WPForms Lite** — letting visitors attach multiple photos, screenshots, and images to a single form submission without purchasing WPForms Pro.
 
-By default, WPForms Lite does not include an image upload field. Multimage solves this completely free, providing instant photo previews, secure AJAX uploads, and automatic email attachments.
+By default, WPForms Lite does not include an image or photo upload field. Multimage solves this completely free, providing instant photo previews, secure AJAX uploads, and automatic email attachments.
 
 > This is an independent, third-party add-on. It is not affiliated with, endorsed by, or sponsored by WPForms or Awesome Motive, Inc. "WPForms" is a trademark of its respective owner and is used here only to describe compatibility.
 
-**Features**
+**Key Features**
 
-* New "Multi Image Upload" field in the builder — drag into any form
-* Built specifically for **WPForms Lite** (no Pro required)
-* Works with WPForms AJAX submission **on or off** — images pre-upload instantly on selection, so nothing is lost to form serialization
-* Per-field settings: Max File Uploads, Allowed File Extensions, Max File Size (MB)
-* Selected images listed with individual remove buttons before submit
-* Image URLs included in the `{all_fields}` email template
-* Uploaded images attached to notification emails
-* Server-side validation: content-based MIME detection, extension whitelist, size limits
-* Automatic cleanup of abandoned temporary uploads after 24 hours
-* Compatible with themes using JCF-style form styling libraries
+* **Multi Image Upload Field** — easily drag and drop into any WPForms form from the Standard Fields panel
+* **Built for WPForms Lite** — accept multiple image uploads on your forms without paying for a WPForms Pro license
+* **Works with AJAX on or off** — images pre-upload instantly via AJAX on selection, ensuring zero data loss during form submission
+* **Individual Remove Buttons** — visitors can preview selected photos and remove unwanted images before submitting
+* **Custom Field Settings** — configure Button Text, Max File Uploads, Allowed File Extensions, and Max File Size (MB) directly in the builder
+* **Email Attachments** — uploaded images are attached directly to WPForms notification emails
+* **Email Template Integration** — image links are automatically included in the `{all_fields}` email tag
+* **Strict Security & Validation** — server-side content-based MIME validation (images only), file extension whitelist, and size limit checks
+* **Automatic Cleanup** — temporary uploads from abandoned form submissions are automatically deleted after 24 hours
+* **Clean Media Library** — uploaded images are saved in your WordPress uploads folder without cluttering your WordPress Media Library
 
 **How it works**
 
-When a visitor selects images, each file is uploaded immediately to a temporary folder through a secured AJAX endpoint. Lightweight tokens travel with the form submission, and on success the files are moved into the standard WordPress uploads directory.
+When a visitor selects photos or images, each file uploads immediately to a temporary directory through a secure AJAX endpoint. Lightweight security tokens travel with the form submission, and upon successful validation, images are moved into your standard WordPress uploads folder (`wp-content/uploads/year/month`).
 
 **Requirements**
 
@@ -55,41 +55,45 @@ If you find Multimage helpful, feel free to check out my other free WordPress pl
 
 == Installation ==
 
-1. Upload the `multimage-image-uploads-for-wpforms` folder to the `/wp-content/plugins/` directory, or install the plugin through the WordPress "Add New Plugin" screen.
-2. Activate the plugin through the 'Plugins' screen in WordPress.
-3. Edit or create a WPForms form and drag the **Multi Image Upload** field into the form from the Fields panel.
-4. Configure the field's Max File Uploads, Allowed File Extensions, and Max File Size options in the field settings panel.
-5. Save and publish the form.
+1. Upload the `multimage-image-uploads-for-wpforms` folder to the `/wp-content/plugins/` directory, or install directly through the WordPress "Add New Plugin" screen.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. Open or create any form in the WPForms builder and drag the **Multi Image Upload** field into your form.
+4. Customize your field settings in the Field Options panel:
+   * **Button Text:** Custom label for the upload button (e.g., "Upload Images").
+   * **Max File Uploads:** Maximum number of images allowed per submission (e.g., 5).
+   * **Allowed File Extensions:** Comma-separated image extensions (`jpg, jpeg, png, webp, gif`).
+   * **Max File Size (MB):** Maximum upload size per image.
+5. Save and publish your form.
 
 == Frequently Asked Questions ==
 
 = Does this work with WPForms Lite? =
 
-Yes. That is the primary use case — WPForms Lite has no image upload field by default, and this plugin adds multiple image and photo uploads completely free without needing Pro.
+Yes! In fact, that is the primary reason Multimage was created. WPForms Lite does not provide an image upload field by default, and Multimage adds multiple image uploads completely free without requiring WPForms Pro.
 
-= Where are the uploaded images stored? =
+= Can users upload non-image files like PDFs or documents? =
 
-In your standard WordPress uploads directory (wp-content/uploads/year/month), after a successful form submission. Before submission they are held in a temporary folder that is cleaned automatically.
+No. Multimage is specifically built and secured for photos and images only. The upload endpoint strictly enforces an image-only whitelist (jpg, jpeg, png, gif, webp) with content-based MIME detection, keeping your site secure and fast.
 
-= Can users upload non-image files? =
+= Where are uploaded images stored? =
 
-No. The upload endpoint enforces an image-only whitelist (jpg, jpeg, png, gif, webp) with content-based MIME detection, regardless of field settings.
+In your standard WordPress uploads directory (`wp-content/uploads/year/month`) after successful form submission. Before submission, temporary files are held in a secure temporary folder and automatically purged after 24 hours if abandoned.
 
 = Does it work with AJAX form submission enabled? =
 
-Yes. Images are pre-uploaded on selection, so the setting does not matter.
+Yes. Images are pre-uploaded on selection, so it works reliably whether WPForms AJAX form submission is enabled or disabled.
 
 = How many images can a visitor upload? =
 
-Whatever you set for Max File Uploads on that field, per form. Use separate Multi Image Upload fields with different limits if you need a photo field and a gallery field on the same form.
+You decide! You can configure the **Max File Uploads** setting for each Multi Image Upload field in your form. You can also use multiple fields with different limits on the same form (e.g., one field for a profile photo and another for receipt/screenshot uploads).
 
-= Do the uploaded images appear in the WordPress Media Library? =
+= Do uploaded images appear in the WordPress Media Library? =
 
-No. Images are saved to your uploads directory but are not added as Media Library attachments, so visitor submissions never clutter your library.
+No. Uploaded images are stored in your uploads directory and attached to notification emails, but they are not registered as Media Library attachments so your WordPress Media Library stays completely uncluttered.
 
-= Can I use this for a photo gallery or portfolio submission form? =
+= Can I use this for photo submissions, customer receipts, or support forms? =
 
-Yes. Any form that needs visitors to submit multiple photos — galleries, portfolios, applications, support requests — can use the Multi Image Upload field.
+Yes. Any contact form that requires visitors to upload multiple images — such as customer photos, screenshot attachments for support requests, job applications, or contest entries — can use the Multi Image Upload field.
 
 == Screenshots ==
 
