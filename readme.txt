@@ -43,6 +43,15 @@ When a visitor selects images, each file is uploaded immediately to a temporary 
 
 * WPForms Lite or WPForms Pro
 
+= Check Out My Other Plugins =
+
+If you find Multimage helpful, feel free to check out my other free WordPress plugins:
+
+* [Story Video Block](https://wordpress.org/plugins/story-video-block/) — Fast video player, YouTube/Vimeo embed & video testimonials for Gutenberg with click-to-play lazy loading.
+* [Quovex Blocks](https://wordpress.org/plugins/quovex-blocks/) — Modern Gutenberg blocks: filterable Query Grid, Post Carousel, Magazine Content Showcase & Notification Banner.
+* [Flash Sale Stock Guard for WooCommerce](https://wordpress.org/plugins/flash-sale-stock-guard-for-woocommerce/) — Prevent overselling during limited drops and flash sales by reserving stock at add-to-cart.
+* [Very Simple Contact Us Form](https://wordpress.org/plugins/very-simple-contact-us-form/) — Clean, fast, zero-bloat contact form for any WordPress website.
+
 == Installation ==
 
 1. Upload the `multimage-image-uploads-for-wpforms` folder to the `/wp-content/plugins/` directory, or install the plugin through the WordPress "Add New Plugin" screen.
