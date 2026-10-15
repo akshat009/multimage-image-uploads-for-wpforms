@@ -12,6 +12,12 @@ Add multiple image uploads to WPForms — including WPForms Lite — with instan
 
 == Description ==
 
+= Video Walkthrough =
+
+Watch the complete walkthrough and demo of Multimage:
+
+https://www.youtube.com/watch?v=XG80kG8uRe0
+
 Multimage adds a new **Multi Image Upload** field to the WPForms form builder — including WPForms Lite — letting visitors attach multiple photos or images to a single form submission.
 
 > This is an independent, third-party add-on. It is not affiliated with, endorsed by, or sponsored by WPForms or Awesome Motive, Inc. "WPForms" is a trademark of its respective owner and is used here only to describe compatibility.

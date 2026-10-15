@@ -10,6 +10,10 @@
 
 WPForms Lite doesn't ship a file upload field. Multimage adds one — a **Multi Image Upload** field that lets visitors attach multiple images to any WPForms form, with instant AJAX pre-upload so nothing is lost to form serialization.
 
+[![Watch Multimage Walkthrough](https://img.youtube.com/vi/XG80kG8uRe0/maxresdefault.jpg)](https://www.youtube.com/watch?v=XG80kG8uRe0)
+
+**[Try it live in your browser](https://playground.wordpress.net/?plugin=wpforms-lite&plugin=multimage-image-uploads-for-wpforms&url=/wp-admin/admin.php%3Fpage%3Dwpforms-overview)** — no install required, via WordPress Playground.
+
 **[Live on the WordPress Plugin Directory →](https://wordpress.org/plugins/multimage-image-uploads-for-wpforms/)**
 
 ## Features

@@ -3,6 +3,8 @@
 .gitattributes
 .gitignore
 .github
+.wordpress-org
+README.md
 .phpunit.result.cache
 composer.json
 composer.lock

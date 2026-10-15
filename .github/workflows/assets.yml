@@ -1,0 +1,25 @@
+name: Update WordPress.org assets
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - ".wordpress-org/**"
+      - "readme.txt"
+  workflow_dispatch:
+
+jobs:
+  assets:
+    name: Sync assets and readme
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Update plugin assets
+        uses: 10up/action-wordpress-plugin-asset-update@stable
+        env:
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          IGNORE_OTHER_FILES: true
